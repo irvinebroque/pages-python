@@ -1,0 +1,6 @@
+# With config file, would be:
+
+# name = "hello-python-worker"
+# main = "./output/entry.py"
+# compatibility_flags = ["python_workers"]
+# compatibility_date = "2024-03-04"

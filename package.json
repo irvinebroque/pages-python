@@ -1,0 +1,12 @@
+{
+    "name": "pages-python",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "deploy": "npx wrangler pages deploy",
+      "dev": "npx wrangler@latest pages dev -- npx wrangler@latest dev ./output/_worker.py --compatibility-date=2024-03-05 --compatibility-flag=experimental"
+    },
+    "devDependencies": {
+      "wrangler": "^3.0.0"
+    }
+  }
